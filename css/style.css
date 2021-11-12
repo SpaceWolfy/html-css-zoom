@@ -83,12 +83,6 @@ img {
   width: 100%;
 }
 
-footer {
-  background-color: #222222;
-  width: 100%;
-  height: 80px;
-}
-
 .name {
   color: #ffffff;
   font-weight: 500;
@@ -103,3 +97,89 @@ footer {
   font-weight: 900;
   content: "\f131";
 }
+/*  */
+
+/* Footer */
+footer {
+  background-color: #222222;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+[class*="footer-div"] {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  height: 100%;
+}
+
+/* .footer-div-section-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+} */
+
+.fa-size {
+  font-size: 25px;
+}
+
+.fas:hover {
+  color: aqua;
+}
+
+.mgleft {
+  margin-left: 20px;
+}
+
+.fa-chevron-up {
+  font-weight: 600;
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+.footer-option-info {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.fa-share-square:hover {
+  color: #00cb00;
+}
+
+/* Non funziona :/ */
+
+/* .fa-record-vinyl {
+  font-weight: ;
+} */
+
+.footer-button-exit {
+  font-size: 12px;
+  color: #d30001;
+  font-weight: 600;
+  height: 100%;
+  width: 110px;
+  background-color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-button-exit:hover {
+  background-color: #d30001;
+  color: #000000;
+}
+
+.footer-div-section-three {
+  cursor: pointer;
+}
+
+/*  */
