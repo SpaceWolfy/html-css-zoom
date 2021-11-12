@@ -17,6 +17,14 @@ body {
   justify-content: center;
 }
 
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
 /* -------------------------------------- */
 
 /* Header */
@@ -35,20 +43,20 @@ body {
   width: 100%;
   height: 20px;
   justify-content: flex-end;
+  margin-right: 5px;
 }
 
 .color-bg {
   background-color: #4a4a4a;
   display: inline-block;
-  border-radius: 5px;
   font-size: 14px;
-  padding: 2px 5px;
+  border-radius: 5px;
+  padding: 4px 5px;
 }
 
 .fa-expand-arrows-alt {
   font-weight: 600;
-  padding: 3;
-  margin: 0 5px;
+  padding: 5px 6px;
 }
 /*  */
 
@@ -67,11 +75,31 @@ body {
   margin-bottom: 15px;
   width: 14%;
   height: 140px;
-  background-color: violet;
+  /* background-image: url(); */
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
 
 footer {
   background-color: #222222;
   width: 100%;
   height: 80px;
+}
+
+.name {
+  color: #ffffff;
+  font-weight: 500;
+  bottom: 0;
+  background-color: rgba(5, 5, 5, 0.5);
+  padding: 5px;
+  font-size: 12px;
+}
+
+.name::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f131";
 }
